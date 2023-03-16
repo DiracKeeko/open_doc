@@ -1,0 +1,10 @@
+parsers:
+  - url: https://"subscribe address in profile"
+    yaml:
+      prepend-rules: # Clash由上而下遍历规则，推荐将自定义规则排到rule组内靠前位置
+        # 直连
+        - DOMAIN,time.is,DIRECT
+        # 代理
+        - DOMAIN-SUFFIX,jsfiddle.net,Proxy
+        - DOMAIN-SUFFIX,fiddle.jshell.net,Proxy
+        - DOMAIN-SUFFIX,origin.com,Proxy

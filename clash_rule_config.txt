@@ -1,0 +1,19 @@
+  Clash由上而下遍历规则，推荐将自定义规则排到rule组内靠前位置
+
+  格式： - 规则类型,分流目标,应该被分到的节点/节点组
+
+  规则类型可参考 https://docs.cfw.lbyczf.com/contents/ui/profiles/rules.html 作者：冇戳懂 https://www.bilibili.com/read/cv18245065
+  参考 https://www.bilibili.com/read/cv18245065
+
+  《Clash使用Parser添加自定义规则并防止更新覆盖》
+  参考 https://chenjuefei.com:444/117.html  # 这个写的好
+
+  《简易教程 | Clash | 自定义在线分流规则策略组》
+  https://yattazen.com/tutorial/clash-custom-config.html
+  这里面有很多规则库 2.1 分流规则库推荐
+    ACL4SSR的库:https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash
+
+    blackmatrix7的库:https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash
+
+    神机规则库:https://github.com/DivineEngine/Profiles/tree/master/Clash/RuleSet
+
